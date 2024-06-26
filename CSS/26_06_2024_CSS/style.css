@@ -1,0 +1,45 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* ESTILOS GLOBALES */
+
+body {
+  padding: 20px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* POR BLOQUE */
+header {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+ul > li:not(:first-child) {
+  color: orange;
+}
+
+section > p {
+  color: blue;
+}
