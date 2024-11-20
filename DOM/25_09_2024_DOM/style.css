@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#products {
+  display: grid;
+  padding: 20px;
+  list-style-type: none;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+#products li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#products p {
+  font-size: 10px;
+  width: 200px;
+  text-align: justify;
+}
+
+#products img {
+  width: 200px;
+  height: 200px;
+}
+
+header,
+footer {
+  height: 80px;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
